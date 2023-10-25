@@ -22,3 +22,8 @@ p {
 #link1::after {
   color: purple;
 }
+
+.heading1 {
+  background-color: blue;
+  border: 20px;
+}
