@@ -6,24 +6,10 @@ div {
   text-align: center;
 }
 
-p {
-  background-color: orange;
-  color: #fff;
-}
-
 #link1 {
-  color: pink;
+  color: green;
 }
 
-#link1:target {
-  color: red;
-}
-
-#link1::after {
-  color: purple;
-}
-
-.heading1 .heading2 .heading3 .heading4 {
-  background-color: blue;
-  border: 20px;
+#link1:visited {
+  background-color: purple;
 }

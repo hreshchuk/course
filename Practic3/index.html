@@ -3,7 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      a:nth-child(1) {
+        color: green;
+      }
+      a:nth-child(1):visited {
+        color: purple;
+      }
+
+      a:nth-child(2) {
+        color: blue;
+      }
+      a:nth-child(2):visited {
+        color: aqua;
+      }
+      a:nth-child(3) {
+        color: red;
+      }
+      a:nth-child(3):visited {
+        color: yellow;
+      }
+
+      a:nth-child(4) {
+        color: orange;
+      }
+      a:nth-child(4):visited {
+        color: pink;
+      }
+    </style>
     <title>Персональна сторінка</title>
   </head>
 </html>
@@ -18,60 +45,16 @@
   </p>
   <ul>
     <li>
-      <a
-        href="biography.html"
-        style="
-          :active {
-            color: green;
-          }
-          :visited {
-            background-color: purple;
-          }
-        "
-        >Автобіографія</a
-      >
+      <a href="biography.html">Автобіографія</a>
     </li>
     <li>
-      <a
-        href="nowadays.html"
-        style="
-          :active {
-            color: orange;
-          }
-          :visited {
-            background-color: pink;
-          }
-        "
-        >Сьогодення</a
-      >
+      <a href="nowadays.html">Сьогодення</a>
     </li>
     <li>
-      <a
-        href="friends.html"
-        style="
-          :active {
-            color: red;
-          }
-          :visited {
-            background-color: yellow;
-          }
-        "
-        >Друзі</a
-      >
+      <a href="friends.html">Друзі</a>
     </li>
     <li>
-      <a
-        href="gallery.html"
-        style="
-          :active {
-            color: blue;
-          }
-          :visited {
-            background-color: aqua;
-          }
-        "
-        >Галерея</a
-      >
+      <a href="gallery.html">Галерея</a>
     </li>
   </ul>
 </body>
