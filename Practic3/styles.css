@@ -5,3 +5,8 @@ div {
 .text {
   text-align: center;
 }
+
+p {
+  background-color: orange;
+  color: #fff;
+}
