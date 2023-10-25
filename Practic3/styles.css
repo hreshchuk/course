@@ -10,3 +10,15 @@ p {
   background-color: orange;
   color: #fff;
 }
+
+#link1 {
+  color: pink;
+}
+
+#link1:target {
+  color: red;
+}
+
+#link1::after {
+  color: purple;
+}
