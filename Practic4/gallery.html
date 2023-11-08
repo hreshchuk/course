@@ -4,30 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Галерея</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 20px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .first-heading {
+        text-align: center;
+        font-size: 70%;
+      }
+
+      .second-heading {
+        text-align: center;
+        font-size: 130%;
+      }
+
+      .third-heading {
+        text-align: center;
+        font-size: 160%;
+      }
+
+      .link-text {
+        font-style: italic;
+      }
+
+      .image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
   </head>
   <body>
     <h1>Галерея</h1>
     <p>
-      <a href="index.html">Назад на головну</a>
+      <a href="index.html" class="link-text">Назад на головну</a>
     </p>
     <div>
       <h2>Мої зображення</h2>
-      <h3>Зображення у цій папці</h3>
-      <div>
+      <h3 class="first-heading">Зображення у цій папці</h3>
+      <div class="image-container">
         <img
           src="images/brown.jpeg&text=clxw2k&bold&italic&fontsize=24"
           alt="Моє зображення:"
         />
       </div>
-      <h3>Зображення у цій папці</h3>
-      <div>
+      <h3 class="second-heading">Зображення у папці</h3>
+      <div class="image-container">
         <img
           src="images/red.jpeg&text=clxw2k&bold&italic&fontsize=24"
           alt="Моє зображення:"
         />
       </div>
-      <h3>Зображення у цій папці</h3>
-      <div>
+      <h3 class="third-heading">Зображення онлайн</h3>
+      <div class="image-container">
         <img
           src="images/pink.jpeg&text=celebrate!!!&bold&italic&fontsize=24"
           alt="Моє зображення:"
