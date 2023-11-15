@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+  .container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+  }
+}

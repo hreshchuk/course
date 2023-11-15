@@ -2,73 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practic 5</title>
+    <link rel="stylesheet" href="styles.css" />
     <style>
       h1 {
         text-align: center;
-        font-size: 24px;
       }
 
-      .main-text {
-        font-size: 120%;
+      .column {
+        border: solid 3px;
+        border-color: black;
+        margin: 12px;
+        background-color: lightblue;
       }
 
-      #link1 {
-        color: green;
+      h3 {
+        position: relative;
+        float: right;
+        border-left: solid 3px;
+        border-bottom: solid 3px;
+        border-color: black;
+        padding: 3px;
+        margin: 0px;
       }
 
-      #link1:visited {
-        color: purple;
+      p {
+        margin: 36px 12px 6px;
       }
 
-      #link2 {
-        color: blue;
+      .firstHeading {
+        background-color: orange;
       }
 
-      #link2:visited {
-        color: aqua;
+      .secondHeading {
+        background-color: palevioletred;
       }
 
-      #link3 {
-        color: red;
-      }
-
-      #link3:visited {
-        color: darkgoldenrod;
-      }
-
-      #link4 {
-        color: orange;
-      }
-
-      #link4:visited {
-        color: pink;
+      .thirdHeading {
+        background-color: pink;
       }
     </style>
-    <title>Персональна сторінка</title>
   </head>
+  <body>
+    <h1>Main caption</h1>
+    <div class="container">
+      <div class="column">
+        <h3 class="firstHeading">Caption 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum maxime
+          enim cupiditate nisi, nobis unde obcaecati repellendus eius, facilis
+          velit laudantium nesciunt suscipit. Libero amet eos rem sit cum autem!
+        </p>
+      </div>
+      <div class="column">
+        <h3 class="secondHeading">Caption 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa
+          ab, dignissimos possimus recusandae illum earum at alias eos laborum
+          esse animi magni totam numquam nam sapiente nostrum corrupti enim?
+        </p>
+      </div>
+      <div class="column">
+        <h3 class="thirdHeading">Caption 3</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+          delectus, reiciendis fugit ipsum pariatur expedita molestiae iste
+          rerum, sed corrupti inventore mollitia nobis, temporibus repellendus
+          voluptate unde nulla debitis optio?
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
-<body>
-  <h1>Персональна сторінка.</h1>
-  <h2>Грещук Максим Ярославович.</h2>
-  <p class="main-text">
-    Мене звати Максим, мені 17 років. Живу в місті Івано-Франківськ. Навчаюсь в
-    Прикарпатському національному університеті імені Василя Стефаника. З малечку
-    цікавився програмуванням і хочу найближчим часом стати Front End
-    Developer-ом.
-  </p>
-  <ul>
-    <li>
-      <a href="biography.html" id="link1">Автобіографія</a>
-    </li>
-    <li>
-      <a href="nowadays.html" id="link2">Сьогодення</a>
-    </li>
-    <li>
-      <a href="friends.html" id="link3">Друзі</a>
-    </li>
-    <li>
-      <a href="gallery.html" id="link4">Галерея</a>
-    </li>
-  </ul>
-</body>
