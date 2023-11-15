@@ -10,10 +10,23 @@
         text-align: center;
       }
 
+      .container {
+        margin: 12px;
+      }
+
+      .col-4 {
+        float: left;
+        box-sizing: border-box;
+      }
+
+      .col-12 {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
       .column {
         border: solid 3px;
         border-color: black;
-        margin: 12px;
         background-color: lightblue;
       }
 
@@ -24,7 +37,7 @@
         border-bottom: solid 3px;
         border-color: black;
         padding: 3px;
-        margin: 0px;
+        margin: 0;
       }
 
       p {
@@ -46,31 +59,39 @@
   </head>
   <body>
     <h1>Main caption</h1>
+
     <div class="container">
-      <div class="column">
-        <h3 class="firstHeading">Caption 1</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum maxime
-          enim cupiditate nisi, nobis unde obcaecati repellendus eius, facilis
-          velit laudantium nesciunt suscipit. Libero amet eos rem sit cum autem!
-        </p>
-      </div>
-      <div class="column">
-        <h3 class="secondHeading">Caption 2</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa
-          ab, dignissimos possimus recusandae illum earum at alias eos laborum
-          esse animi magni totam numquam nam sapiente nostrum corrupti enim?
-        </p>
-      </div>
-      <div class="column">
-        <h3 class="thirdHeading">Caption 3</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
-          delectus, reiciendis fugit ipsum pariatur expedita molestiae iste
-          rerum, sed corrupti inventore mollitia nobis, temporibus repellendus
-          voluptate unde nulla debitis optio?
-        </p>
+      <div class="row">
+        <div class="column col-4">
+          <h3 class="firstHeading">Галушки</h3>
+          <p>
+            Галушки – кулінарний шедевр, який чарує своєю простотою та смаковим
+            розмаїттям. М'яке тісто, варене до ідеальної ступені, відчувається
+            під зубами, а їхня універсальність дозволяє насолоджуватися ними як
+            у солоних, так і у солодких версіях. Галушки – це традиція, що
+            розкриває смакові горизонти.
+          </p>
+        </div>
+
+        <div class="column col-4">
+          <h3 class="secondHeading">Борщ</h3>
+          <p>
+            Борщ – це втілення колориту української культури в кожному ложці.
+            Яскравий червоний колір, аромат свіжих трав та різноманітність
+            овочів створюють унікальний смаковий букет. Борщ – це не просто
+            страва, а гордість кожного національного обіду.
+          </p>
+        </div>
+
+        <div class="column col-4">
+          <h3 class="thirdHeading">Вареники</h3>
+          <p>
+            Вареники – це шедевр української кухні. Тонке тісто, що обгортає
+            смачний начинкаючий сюрприз, створює справжню поезію смаку. Вареники
+            – це не просто страва, а гастрономічний експрес, який подорожує в
+            серце смакових відчуттів.
+          </p>
+        </div>
       </div>
     </div>
   </body>
