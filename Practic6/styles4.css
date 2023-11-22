@@ -1,0 +1,36 @@
+.back-text {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  h3 {
+    font-size: calc(1.5rem + 30%);
+  }
+
+  a,
+  p,
+  ul,
+  li {
+    font-size: 120%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h3 {
+    font-size: calc(1.5rem + 20%);
+  }
+
+  a,
+  p,
+  ul,
+  li {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: calc(1.5rem + 10%);
+  }
+}
